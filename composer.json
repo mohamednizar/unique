@@ -1,0 +1,42 @@
+{
+    "name": "lsflk/unique",
+    "description": "",
+    "keywords": [
+        "lsflk",
+        "unique"
+    ],
+    "homepage": "https://github.com/lsflk/unique",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Mohamed Nizar",
+            "email": "nizarucsc@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LSFLK\\Unique\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LSFLK\\Unique\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
